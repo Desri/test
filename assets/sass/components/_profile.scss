@@ -1,0 +1,30 @@
+.boxProfile {
+  width: 400px;
+  margin: auto;
+  .profile {
+    .avatarUser {
+      margin-bottom: 10px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #e8e8e8;
+      .avatarImg {
+        text-align: center;
+        img {
+          width: 100px;
+          border-radius: 50%;
+        }
+      }
+    }
+    .card {
+      .card-body {
+        .descProfile {
+          p {
+            margin: 0px;
+            span {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+  }
+}

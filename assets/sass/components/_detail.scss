@@ -1,0 +1,79 @@
+.breadcrumb {
+  border-radius: 0px;
+  background: transparent;
+  border-bottom: 1px solid #dddddd;
+  li{
+    text-transform: capitalize;
+    a {
+      color: $pinkColor;
+    }
+  }
+}
+.box-image {
+  .image-pokemon {
+    height: 300px;
+    max-height: 100%;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 3px;
+    border: 1px solid #dddddd;
+  }
+}
+.detail-pokemon {
+  .desc-pokemon {
+    h2 {
+      font-size: 18px;
+      font-weight: 600;
+      color: $greyColor;
+      text-transform: capitalize;
+    }
+    .types {
+      padding: 20px 30px;
+      border-radius: 10px;
+      background: #eeeeee;
+      box-shadow: 2px 2px 2px #dddddd;
+      .boxs {
+        height: 106px;
+        max-width: 100%;
+        margin-bottom: 0px;
+        @media screen and (max-width: 480px) {
+          p {
+            margin-bottom: 0px;
+          }
+        }
+        label {
+          font-size: 17px;
+          font-weight: 600;
+          margin-bottom: 5px;
+        }
+      }
+      ul {
+        padding-left: 20px;
+        margin-bottom: 0px;
+      }
+    }
+    .stats {
+      .box-stats {
+        padding: 20px 30px;
+        border-radius: 10px;
+        background: #eeeeee;
+        box-shadow: 2px 2px 2px #dddddd;
+        .list-stats {
+          h5 {
+            font-size: 16px;
+            color: $greyColor;
+            text-transform: capitalize;
+          }
+          .progress {
+            height: 11px;
+            border-radius: 20px;
+            background-color: #c5c5c5;
+            .progress-bar {
+              background-color: $pinkColor;
+            }
+          }
+        }
+      }
+    }
+  }
+}

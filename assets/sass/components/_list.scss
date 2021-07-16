@@ -1,0 +1,162 @@
+.boxAddBook {
+  .btnAdd {
+    margin-left: -10px;
+    margin-bottom: 15px;
+    button {
+      border-radius: 0px;
+      border: 1px solid #dddddd;
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+}
+.boxBooks {
+  .card {
+    .boxnumber {
+      top: 0;
+      left: 5px;
+      position: absolute;
+      .number {
+        width: 45px;
+        height: 25px;
+        line-height: 25px;
+        text-align: center;
+        background: #4343436e;
+        p {
+          margin: 0px;
+          font-size: 14px;
+          color: $whiteColor;
+        }
+      }
+    }
+    .card-body {
+      padding: 0px;
+      a {
+        color: inherit;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      .boxTitle {
+        .titleBook {
+          padding: 15px;
+          background: #f2f2f2;
+          h4 {
+            font-size: 16px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 1;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            display: -webkit-box;
+          }
+        }
+      }
+      .descBook {
+        height: 90px;
+        .desc {
+          padding: 15px;
+          p {
+            font-size: 15px;
+            line-height: 20px;
+            text-overflow: ellipsis;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            display: -webkit-box;
+          }
+        }
+      }
+      .creadBy {
+        border-top: 1px solid #dddddd;
+        .user {
+          padding: 10px 15px;
+          p {
+            margin: 0px;
+            color: #646464;
+            font-size: 15px;
+            font-weight: 500;
+          }
+        }
+      }
+    }
+    .card-footer {
+      padding: 7px;
+      text-align: center;
+      background: $pinkColor;
+      a {
+        display: block;
+        font-size: 16px;
+        font-weight: 500;
+        color: $whiteColor;
+        text-transform: uppercase;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+.detail {
+  .card-body {
+    padding: 15px;
+    .headingDetail {
+      margin-bottom: 15px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #dddddd;
+      .userDetail {
+        overflow: hidden;
+        .avatar {
+          float: left;
+          img {
+            width: 35px;
+            margin-right: 10px;
+            border-radius: 50%;
+          }
+        }
+        .named {
+          float: left;
+          h3 {
+            margin: 0px;
+            font-size: 17px;
+            padding-top: 0px;
+          }
+          .date {
+            p {
+              margin: 0px;
+              font-size: 11px;
+              color: #838383;
+            }
+          }
+        }
+      }
+    }
+    .detailTitle {
+      .title {
+        h2 {
+          margin: 0px;
+          font-size: 17px;
+          text-overflow: ellipsis;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+          display: -webkit-box;
+        }
+      }
+    }
+    .descDetail {
+      margin-top: 15px;
+      p {
+        margin: 0px;
+        line-height: 17px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        display: -webkit-box;
+      }
+    }
+  }
+}

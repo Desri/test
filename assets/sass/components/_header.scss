@@ -1,0 +1,75 @@
+header {
+  nav {
+    border-bottom: 1px solid #dddddd;
+    .navbar-brand {
+      color: $greyColor;
+    }
+    .navbar-nav {
+      li {
+        margin-left: 15px;
+        a {
+          height: 32px;
+          width: 100px;
+          font-size: 15px;
+          font-weight: 600;
+          color: $pinkColor !important;
+          line-height: 17px;
+          text-align: center;
+          border-radius: 5px;
+          border: 1px solid #eba1a1;
+        }
+        &.register {
+          a {
+            color: $whiteColor !important;
+            background: $pinkColor;
+          }
+        }
+        &.boxUser {
+          ul {
+            padding: 0px;
+          }
+          a {
+            border: 0px;
+            span {
+              color: $greyColor;
+              margin-right: 5px;
+            }
+            &:after {
+              top: 2px;
+              position: relative;
+            }
+          }
+          .dropdown-menu {
+            li {
+              margin:0px;
+              padding: 6px 15px;
+              border-bottom: 1px solid #dddddd;
+              a {
+                padding: 0px;
+                display: initial;
+                font-weight: inherit;
+                color: $greyColor !important;
+                &:hover {
+                  background: transparent;
+                }
+              }
+            }
+          }
+        }
+      }
+      @media screen and (max-width: 480px) {
+        display: block;
+        li {
+          float: left;
+          margin-left: 10px;
+          a {
+            height: 29px;
+            width: 80px;
+            font-size: 13px;
+            line-height: 12px;
+          }
+        }
+      }
+    }
+  }
+}
