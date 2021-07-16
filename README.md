@@ -1,4 +1,4 @@
-# pokeapi
+# Library
 
 ## Build Setup
 
